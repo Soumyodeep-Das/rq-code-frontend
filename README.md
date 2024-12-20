@@ -65,6 +65,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
+Environment Variables
+
+REACT_APP_API_URL=http://localhost:5000
+REACT_APP_GENERATE_QR_URL=${REACT_APP_API_URL}/api/generate
+REACT_APP_GET_QR_CODES_URL=${REACT_APP_API_URL}/api/user
+REACT_APP_DELETE_QR_URL=${REACT_APP_API_URL}/api/qr
+REACT_APP_UPDATE_QR_URL=${REACT_APP_API_URL}/api/qr
+
+
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
