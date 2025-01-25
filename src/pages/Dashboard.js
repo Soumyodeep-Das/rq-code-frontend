@@ -84,6 +84,7 @@ const Dashboard = () => {
       console.error("Error generating QR code:", error);
       toast.error("Error generating QR code.");
     }
+     window.location.reload(); // Reloads the current page
   };
   
   
